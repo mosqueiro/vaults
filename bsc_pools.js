@@ -147,7 +147,6 @@ export const bscPools = [
       'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
   },
 
-  /*
   {
     id: 'seed-seed',
     logo: 'degens/seed.png',
@@ -158,14 +157,14 @@ export const bscPools = [
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
     earnedToken: 'zvSEED',
-    earnedTokenAddress: '0xB891500B7621F4046a36EEaF1d7232b31C638B6b',
-    earnContractAddress: '0xB891500B7621F4046a36EEaF1d7232b31C638B6b',
+    earnedTokenAddress: '0xae8741D5A735f9D77a572E9e7DF5496Deefe9631',
+    earnContractAddress: '0xae8741D5A735f9D77a572E9e7DF5496Deefe9631',
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'tokens',
     oracleId: 'SEED',
     oraclePrice: 0,
-    depositsPaused: true,
+    depositsPaused: false,
     status: 'active',
     platform: 'Other',
     assets: ['SEED'],
@@ -175,7 +174,7 @@ export const bscPools = [
     buyTokenUrl:
       'https://exchange.treedefi.com/#/swap?outputCurrency=0x40B34cC972908060D6d527276e17c105d224559d',
   },
-  
+
   {
     id: 'seed-bnb',
     logo: 'degens/SEED-BNB.png',
@@ -186,8 +185,8 @@ export const bscPools = [
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
     earnedToken: 'zvSEED-BNB',
-    earnedTokenAddress: '0x1D2B51d9Efbe661C9d08E9dCB5235D2b4eC7f8f3',
-    earnContractAddress: '0x1D2B51d9Efbe661C9d08E9dCB5235D2b4eC7f8f3',
+    earnedTokenAddress: '0xf5947D8Aa952F6e3a6E545aE5090536962a313Ca',
+    earnContractAddress: '0xf5947D8Aa952F6e3a6E545aE5090536962a313Ca',
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
@@ -201,11 +200,11 @@ export const bscPools = [
     withdrawalFee: '0.1%',
     performanceFee: '3.0%',
     addLiquidityUrl:
-      'https://exchange.pancakeswap.finance/#/add/BNB/0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
+      'https://exchange.treedefi.com/#/add/ETH/0x40b34cc972908060d6d527276e17c105d224559d',
     buyTokenUrl:
-      'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
+      'https://exchange.treedefi.com/#/swap?outputCurrency=0x40b34cc972908060d6d527276e17c105d224559d',
   },
-  
+
   {
     id: 'seed-busd',
     logo: 'degens/SEED-BUSD.png',
@@ -216,14 +215,14 @@ export const bscPools = [
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
     earnedToken: 'zvSEED-BUSD',
-    earnedTokenAddress: '0x4e65B2Ecfdc79c9C63E33aFDEecc3eF9F6D29f3D',
-    earnContractAddress: '0x4e65B2Ecfdc79c9C63E33aFDEecc3eF9F6D29f3D',
+    earnedTokenAddress: '0xF487D66Cf9A23792f6bc280f75d94c5509830437',
+    earnContractAddress: '0xF487D66Cf9A23792f6bc280f75d94c5509830437',
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
     oracleId: 'seed-busd',
     oraclePrice: 0,
-    depositsPaused: true,
+    depositsPaused: false,
     status: 'active',
     platform: 'Other',
     assets: ['SEED', 'BUSD'],
@@ -231,11 +230,11 @@ export const bscPools = [
     withdrawalFee: '0.1%',
     performanceFee: '3.0%',
     addLiquidityUrl:
-      'https://exchange.pancakeswap.finance/#/add/BNB/0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
+      'https://exchange.treedefi.com/#/add/ETH/0x40b34cc972908060d6d527276e17c105d224559d',
     buyTokenUrl:
-      'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
+      'https://exchange.treedefi.com/#/swap?outputCurrency=0x40b34cc972908060d6d527276e17c105d224559d',
   },
-*/
+
   {
     id: 'goal-goal',
     logo: 'degens/goal.png',

@@ -38,8 +38,8 @@ export const polygonPools = [
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
     earnedToken: 'zvZEFI',
-    earnedTokenAddress: '0x2b40ddFADD05b7DA64DA49087c58bC0Cc7d8228C',
-    earnContractAddress: '0x2b40ddFADD05b7DA64DA49087c58bC0Cc7d8228C',
+    earnedTokenAddress: '0xcaee82cC440398AF0ed0c7343331147121c88998',
+    earnContractAddress: '0xcaee82cC440398AF0ed0c7343331147121c88998',
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'tokens',
@@ -55,8 +55,7 @@ export const polygonPools = [
     buyTokenUrl:
       'https://quickswap.exchange/#/swap?inputCurrency=ETH&outputCurrency=0xcaf870dad882b00f4b20d714bbf7fceada5e4195',
   },
-
-  
+  /*
   {
     id: 'zefi-matic',
     name: 'ZEFI-MATIC',
@@ -85,5 +84,5 @@ export const polygonPools = [
     buyTokenUrl:
       'https://quickswap.exchange/#/swap?inputCurrency=ETH&outputCurrency=0xCaf870DaD882b00F4b20D714Bbf7fceADA5E4195',
   },
-  
+  */
 ];
