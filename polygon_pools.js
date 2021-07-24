@@ -43,7 +43,7 @@ export const polygonPools = [
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'tokens',
-    oracleId: 'ZEFI',
+    oracleId: 'ZEFIM',
     oraclePrice: 0,
     depositsPaused: false,
     status: 'active',
