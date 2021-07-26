@@ -146,7 +146,35 @@ export const bscPools = [
     buyTokenUrl:
       'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
   },
-
+/*
+  {
+    id: 'mel-mel',
+    logo: 'degens/mel.png',
+    name: 'MEL',
+    token: 'MEL',
+    tokenDescription: 'Caramel',
+    tokenAddress: '0x7d5bc7796fd62a9a27421198fc3c349b96cdd9dc',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'zvMEL',
+    earnedTokenAddress: '0xd5838e244E25B16DAd4Ee31Dcb328c4E4c3c39ba',
+    earnContractAddress: '0xd5838e244E25B16DAd4Ee31Dcb328c4E4c3c39ba',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'tokens',
+    oracleId: 'MEL',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Other',
+    assets: ['MEL'],
+    callFee: 0,
+    withdrawalFee: '0.1%',
+    performanceFee: '4.0%',
+    buyTokenUrl:
+      'https://exchange.caramelswap.finance/#/swap?outputCurrency=0x7d5bc7796fd62a9a27421198fc3c349b96cdd9dc',
+  },
+*/
   {
     id: 'seed-seed',
     logo: 'degens/seed.png',
