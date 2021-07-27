@@ -142,7 +142,7 @@ export const polygonPools = [
     buyTokenUrl:
       'https://quickswap.exchange/#/swap?outputCurrency=0x80244C2441779361F35803b8C711C6c8fC6054a3',
   },
-
+  /*
   {
     id: 'boneswap-ape-wmatic-bone',
     name: 'BONE-MATIC ALP',
@@ -151,7 +151,7 @@ export const polygonPools = [
     tokenAddress: '0xbCD83aB205A14648674FE67c97AAD89B261cBaC6',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
-    earnedToken: 'zvBONE-MATIC',
+    earnedToken: 'zvBONE-MATICAP',
     earnedTokenAddress: '0x804A3e46824145E0c70d7f15eAD5462b18fB8e34',
     earnContractAddress: '0x804A3e46824145E0c70d7f15eAD5462b18fB8e34',
     pricePerFullShare: 1,
@@ -159,7 +159,7 @@ export const polygonPools = [
     oracle: 'lps',
     oracleId: 'boneswap-ape-wmatic-bone',
     oraclePrice: 0,
-    depositsPaused: false,
+    depositsPaused: true,
     status: 'active',
     platform: 'BoneSwap',
     assets: ['BONEswap', 'MATIC'],
@@ -172,7 +172,7 @@ export const polygonPools = [
       'https://app.apeswap.finance/#/swap?outputCurrency=0x80244C2441779361F35803b8C711C6c8fC6054a3',
   },
 
-  /*
+
   {
     id: 'zefi-matic',
     name: 'ZEFI-MATIC',

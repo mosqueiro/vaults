@@ -146,7 +146,7 @@ export const bscPools = [
     buyTokenUrl:
       'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
   },
-/*
+  /*
   {
     id: 'mel-mel',
     logo: 'degens/mel.png',
