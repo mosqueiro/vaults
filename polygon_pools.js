@@ -142,24 +142,24 @@ export const polygonPools = [
     buyTokenUrl:
       'https://quickswap.exchange/#/swap?outputCurrency=0x80244C2441779361F35803b8C711C6c8fC6054a3',
   },
-  /*
+
   {
     id: 'boneswap-ape-wmatic-bone',
-    name: 'BONE-MATIC ALP',
-    token: 'BONE-MATIC ALP',
+    name: 'BONE-MATIC AP',
+    token: 'BONE-MATIC AP',
     tokenDescription: 'ApeSwap (BoneSwap)',
     tokenAddress: '0xbCD83aB205A14648674FE67c97AAD89B261cBaC6',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
-    earnedToken: 'zvBONE-MATICAP',
-    earnedTokenAddress: '0x804A3e46824145E0c70d7f15eAD5462b18fB8e34',
-    earnContractAddress: '0x804A3e46824145E0c70d7f15eAD5462b18fB8e34',
+    earnedToken: 'zvBONE-MATIC-ALP',
+    earnedTokenAddress: '0xD7223e13212fB99f93B4aed06367673B0aBBc522',
+    earnContractAddress: '0xD7223e13212fB99f93B4aed06367673B0aBBc522',
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
     oracleId: 'boneswap-ape-wmatic-bone',
     oraclePrice: 0,
-    depositsPaused: true,
+    depositsPaused: false,
     status: 'active',
     platform: 'BoneSwap',
     assets: ['BONEswap', 'MATIC'],
@@ -172,6 +172,35 @@ export const polygonPools = [
       'https://app.apeswap.finance/#/swap?outputCurrency=0x80244C2441779361F35803b8C711C6c8fC6054a3',
   },
 
+  {
+    id: 'boneswap-sushi-wmatic-bone',
+    name: 'BONE-MATIC SLP',
+    token: 'BONE-MATIC SLP',
+    tokenDescription: 'SushiSwap (BoneSwap)',
+    tokenAddress: '0x4026895A93D720083E4469eE675156A8Ff8D3853',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'zvBONE-MATIC-SLP',
+    earnedTokenAddress: '0x5F91DC44B659B541bC62CF39d41153333Ac4A6a2',
+    earnContractAddress: '0x5F91DC44B659B541bC62CF39d41153333Ac4A6a2',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'boneswap-sushi-wmatic-bone',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'BoneSwap',
+    assets: ['BONEswap', 'MATIC'],
+    callFee: 0.5,
+    withdrawalFee: '0.1%',
+    performanceFee: '4%',
+    addLiquidityUrl: 'https://app.sushi.com/add/ETH/0x80244C2441779361F35803b8C711C6c8fC6054a3',
+    buyTokenUrl:
+      'https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x80244C2441779361F35803b8C711C6c8fC6054a3',
+  },
+
+  /*
 
   {
     id: 'zefi-matic',
