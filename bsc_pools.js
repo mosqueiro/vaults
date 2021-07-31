@@ -205,6 +205,37 @@ export const bscPools = [
       'https://app.apeswap.finance/#/swap?inputCurrency=0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95&outputCurrency=0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
   },
 
+
+
+
+  {
+    id: 'cake-cakev2',
+    logo: 'degens/cake.svg',
+    name: 'CAKE',
+    token: 'CAKE',
+    tokenDescription: 'PancakeSwap',
+    tokenAddress: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+    tokenDecimals: 18,
+    earnedToken: 'zvCAKE',
+    earnedTokenAddress: '0x6124F40529F63942e7867D8b1F47676914C5f561',
+    earnContractAddress: '0x6124F40529F63942e7867D8b1F47676914C5f561',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'tokens',
+    oracleId: 'Cake',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'PancakeSwap',
+    assets: ['CAKE'],
+    callFee: 0,
+    withdrawalFee: '0.0%',
+    performanceFee: '1.0%',
+    buyTokenUrl:
+      'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+  },
+
+
   {
     id: 'banana-banana',
     logo: 'degens/BANANA.svg',
@@ -291,6 +322,35 @@ export const bscPools = [
       'https://app.apeswap.finance/#/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95',
     buyTokenUrl:
       'https://app.apeswap.finance/#/swap?inputCurrency=0x603c7f932ed1fc6575303d8fb018fdcbb0f39a95&outputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56',
+  },
+
+  {
+    id: 'apeswap-skill-wbnb',
+    name: 'SKILL-BNB',
+    token: 'SKILL-BNB',
+    tokenDescription: 'Apeswap',
+    tokenAddress: '0x0dEB588c1EC6f1D9f348126D401f05c4c7B7a80c',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'zvSKILL-BNB',
+    earnedTokenAddress: '0xC12f9ce849f5036087eFabF8beF0BFa5E9bA33fc',
+    earnContractAddress: '0xC12f9ce849f5036087eFabF8beF0BFa5E9bA33fc',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'apeswap-skill-wbnb',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'PancakeSwap',
+    assets: ['SKILL', 'BNB'],
+    callFee: 0.5,
+    withdrawalFee: '0.1%',
+    performanceFee: '4.0%',
+    addLiquidityUrl:
+      'https://app.apeswap.finance/#/add/0x154a9f9cbd3449ad22fdae23044319d6ef2a1fab/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    buyTokenUrl:
+      'https://app.apeswap.finance/#/swap?inputCurrency=0x154a9f9cbd3449ad22fdae23044319d6ef2a1fab&outputCurrency=0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
   },
 
   {
@@ -405,7 +465,7 @@ export const bscPools = [
     withdrawalFee: '0.1%',
     performanceFee: '3.0%',
     addLiquidityUrl:
-      'https://exchange.treedefi.com/#/add/ETH/0x40b34cc972908060d6d527276e17c105d224559d',
+      'https://exchange.treedefi.com/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x40b34cc972908060d6d527276e17c105d224559d',
     buyTokenUrl:
       'https://exchange.treedefi.com/#/swap?outputCurrency=0x40b34cc972908060d6d527276e17c105d224559d',
   },
@@ -462,9 +522,9 @@ export const bscPools = [
     withdrawalFee: '0.1%',
     performanceFee: '3.0%',
     addLiquidityUrl:
-      'https://exchange.pancakeswap.finance/#/add/BNB/0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
+      'https://exchange.pancakeswap.finance/#/add/BNB/0xE5b57E6e1b945B91FEE368aC108d2ebCcA78Aa8F',
     buyTokenUrl:
-      'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
+      'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xE5b57E6e1b945B91FEE368aC108d2ebCcA78Aa8F',
   },
 
   {
@@ -492,9 +552,9 @@ export const bscPools = [
     withdrawalFee: '0.1%',
     performanceFee: '3.0%',
     addLiquidityUrl:
-      'https://exchange.pancakeswap.finance/#/add/BNB/0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
+      'https://exchange.pancakeswap.finance/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0xE5b57E6e1b945B91FEE368aC108d2ebCcA78Aa8F',
     buyTokenUrl:
-      'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
+      'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xE5b57E6e1b945B91FEE368aC108d2ebCcA78Aa8F',
   },
 
   {
@@ -522,35 +582,9 @@ export const bscPools = [
     withdrawalFee: '0.1%',
     performanceFee: '3.0%',
     addLiquidityUrl:
-      'https://exchange.pancakeswap.finance/#/add/BNB/0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
+      'https://exchange.pancakeswap.finance/#/add/0x55d398326f99059ff775485246999027b3197955/0xE5b57E6e1b945B91FEE368aC108d2ebCcA78Aa8F',
     buyTokenUrl:
-      'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07',
+      'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xE5b57E6e1b945B91FEE368aC108d2ebCcA78Aa8F',
   },
 
-  {
-    id: 'cake-cakev2',
-    logo: 'degens/cake.svg',
-    name: 'CAKE',
-    token: 'CAKE',
-    tokenDescription: 'PancakeSwap',
-    tokenAddress: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
-    tokenDecimals: 18,
-    earnedToken: 'zvCAKE',
-    earnedTokenAddress: '0x6124F40529F63942e7867D8b1F47676914C5f561',
-    earnContractAddress: '0x6124F40529F63942e7867D8b1F47676914C5f561',
-    pricePerFullShare: 1,
-    tvl: 0,
-    oracle: 'tokens',
-    oracleId: 'Cake',
-    oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
-    platform: 'PancakeSwap',
-    assets: ['CAKE'],
-    callFee: 0,
-    withdrawalFee: '0.0%',
-    performanceFee: '1.0%',
-    buyTokenUrl:
-      'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
-  },
 ];
