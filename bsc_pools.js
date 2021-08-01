@@ -205,9 +205,6 @@ export const bscPools = [
       'https://app.apeswap.finance/#/swap?inputCurrency=0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95&outputCurrency=0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
   },
 
-
-
-
   {
     id: 'cake-cakev2',
     logo: 'degens/cake.svg',
@@ -234,7 +231,6 @@ export const bscPools = [
     buyTokenUrl:
       'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
   },
-
 
   {
     id: 'banana-banana',
@@ -586,5 +582,4 @@ export const bscPools = [
     buyTokenUrl:
       'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xE5b57E6e1b945B91FEE368aC108d2ebCcA78Aa8F',
   },
-
 ];
