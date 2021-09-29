@@ -28,6 +28,34 @@ export const bscPools = [
   },
 
   {
+    id: 'cake-cakev2',
+    logo: 'degens/cake.svg',
+    name: 'CAKE',
+    token: 'CAKE',
+    tokenDescription: 'Pancakeswap',
+    tokenAddress: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+    tokenDecimals: 18,
+    earnedToken: 'zvaultCAKE',
+    earnedTokenAddress: '0x820f518027d908FcE5dfD6439A64fc9aB141061d',
+    earnContractAddress: '0x820f518027d908FcE5dfD6439A64fc9aB141061d',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'tokens',
+    oracleId: 'Cake',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    turbo: true,
+    platform: 'Pancakeswap',
+    assets: ['CAKE'],
+    callFee: 0,
+    withdrawalFee: '0.0%',
+    performanceFee: '0.0%',
+    buyTokenUrl:
+      'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+  },
+
+  {
     id: 'zefiv2-zefi-bnb',
     logo: 'degens/ZEFI-BNB.png',
     name: 'ZEFI-BNB',
@@ -203,6 +231,33 @@ export const bscPools = [
       'https://app.viralata.finance/pt-BR/exchange/add/0x8d9a79314c4e09a7c53c124195caeb8b89f4879d/0x0288d3e353fe2299f11ea2c2e1696b4a648ecc07',
     buyTokenUrl:
       'https://app.viralata.finance/pt-BR/exchange/swap?outputCurrency=0x8d9a79314c4e09a7c53c124195caeb8b89f4879d',
+  },
+
+  {
+    id: 'cake-old',
+    logo: 'degens/cake.svg',
+    name: 'CAKE',
+    token: 'CAKE',
+    tokenDescription: 'Pancakeswap',
+    tokenAddress: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+    tokenDecimals: 18,
+    earnedToken: 'zvCAKE',
+    earnedTokenAddress: '0x6124F40529F63942e7867D8b1F47676914C5f561',
+    earnContractAddress: '0x6124F40529F63942e7867D8b1F47676914C5f561',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'tokens',
+    oracleId: 'Cake',
+    oraclePrice: 0,
+    depositsPaused: true,
+    status: 'active',
+    platform: 'Pancakeswap',
+    assets: ['CAKE'],
+    callFee: 0,
+    withdrawalFee: '0.0%',
+    performanceFee: '1.0%',
+    buyTokenUrl:
+      'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
   },
 
   {
@@ -432,33 +487,6 @@ export const bscPools = [
       'https://exchange.bitblocks.finance/#/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0xfC8E68E30350c6603D3d29fCc8E676380C28FCf4',
     buyTokenUrl:
       'https://exchange.bitblocks.finance/#/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0xfC8E68E30350c6603D3d29fCc8E676380C28FCf4',
-  },
-
-  {
-    id: 'cake-cakev2',
-    logo: 'degens/cake.svg',
-    name: 'CAKE',
-    token: 'CAKE',
-    tokenDescription: 'Pancakeswap',
-    tokenAddress: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
-    tokenDecimals: 18,
-    earnedToken: 'zvCAKE',
-    earnedTokenAddress: '0x6124F40529F63942e7867D8b1F47676914C5f561',
-    earnContractAddress: '0x6124F40529F63942e7867D8b1F47676914C5f561',
-    pricePerFullShare: 1,
-    tvl: 0,
-    oracle: 'tokens',
-    oracleId: 'Cake',
-    oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
-    platform: 'Pancakeswap',
-    assets: ['CAKE'],
-    callFee: 0,
-    withdrawalFee: '0.0%',
-    performanceFee: '1.0%',
-    buyTokenUrl:
-      'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
   },
 
   {
