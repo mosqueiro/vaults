@@ -45,7 +45,7 @@ export const polygonPools = [
     oracle: 'tokens',
     oracleId: 'ZEFIM',
     oraclePrice: 0,
-    depositsPaused: false,
+    depositsPaused: true,
     status: 'active',
     platform: 'ZCore Finance',
     assets: ['ZEFI'],
