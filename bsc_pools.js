@@ -84,7 +84,7 @@ export const bscPools = [
     buyTokenUrl:
       'https://pancakeswap.finance/swap?inputCurrency=0x23396cF899Ca06c4472205fC903bDB4de249D6fC&outputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
   },
-*/
+
   {
     id: 'pacoca-pacoca',
     logo: 'single-assets/PACOCA.svg',
@@ -140,7 +140,7 @@ export const bscPools = [
     buyTokenUrl:
       'https://exchange.zcore.network/#/swap?inputCurrency=ETH&outputCurrency=0xA0451f8820CFb45CEd3A90470901e1dB38fb7b8f',
   },
-
+*/
   {
     id: 'zefiv2-zefi-bnb',
     logo: 'degens/ZEFI-BNB.png',
@@ -229,7 +229,7 @@ export const bscPools = [
     buyTokenUrl:
       'https://app.apeswap.finance/#/swap?inputCurrency=0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95&outputCurrency=0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
   },
-
+/*
   {
     id: 'cake-cakev2',
     logo: 'degens/cake.svg',
@@ -316,7 +316,7 @@ export const bscPools = [
     buyTokenUrl:
       'https://app.viralata.finance/pt-BR/exchange/swap?outputCurrency=0x8d9a79314c4e09a7c53c124195caeb8b89f4879d',
   },
-*/
+
 
   {
     id: 'auro-auro-d',
@@ -1012,4 +1012,5 @@ export const bscPools = [
     buyTokenUrl:
       'https://app.apeswap.finance/#/swap?outputCurrency=0x4ECfb95896660aa7F54003e967E7b283441a2b0A',
   },
+  */
 ];
